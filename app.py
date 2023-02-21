@@ -51,6 +51,6 @@ def value_error(e):
     return f'Ошибка данных для обработки - {e}'
 
 
-if __name__ == "__main__":
-    #Запуск сервера
-    app.run(host="0.0.0.0", port=80)
+#if __name__ == "__main__":
+#    #Запуск сервера
+#    app.run(host="0.0.0.0", port=80)
