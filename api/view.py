@@ -8,7 +8,7 @@ api_blueprint = Blueprint("api_blueprint", __name__)
 #Объявление логера для записи запросов api
 logging.basicConfig(level=logging.INFO)
 logger_api = logging.getLogger("api_loger")
-file_handler = logging.FileHandler(filename="./logs/api.log", encoding="UTF-8")
+file_handler = logging.FileHandler(filename=".\logs\api.log", encoding="UTF-8")
 format_logger = logging.Formatter("%(asctime)s [%(levelname)s] %(message)s")
 file_handler.setFormatter(format_logger)
 logger_api.addHandler(file_handler)
