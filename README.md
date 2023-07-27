@@ -4,8 +4,13 @@
 #
 Для запуска приложения используйте файл **app.py**
 
+
+
 # Стек
 Python, Flask, Jinja2
+
+<img src="https://img.shields.io/badge/python-white?style=for-the-badge&logo=python&logoColor=blue"/>
+
 ﻿attrs==22.1.0
 blueprint==3.4.2
 click==8.1.3
